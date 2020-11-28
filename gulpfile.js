@@ -9,8 +9,9 @@ function style() {
     return gulp.src('root/*.scss')
         .pipe(sass().on('error',sass.logError))
         .pipe(cleanCSS())
-        .pipe(gulp.dest('android-flashcards/app/src/main/assets/static/css/'))
-        .pipe(gulp.dest('android-flashcards-en/app/src/main/assets/static/css/'));
+        .pipe(gulp.dest('android-flashcards-en-id/app/src/main/assets/static/css/'))
+        .pipe(gulp.dest('android-flashcards-en-pl/app/src/main/assets/static/css/'))
+        .pipe(gulp.dest('android-flashcards-pl-en/app/src/main/assets/static/css/'))
 }
 // function watch() {
 //     browserSync.init({
@@ -28,8 +29,9 @@ function script() {
     return pipeline(
         gulp.src('root/*.js'),
         uglify(),
-        gulp.dest('android-flashcards/app/src/main/assets/static/js/'),
-        gulp.dest('android-flashcards-en/app/src/main/assets/static/js/')
+        gulp.dest('android-flashcards-en-id/app/src/main/assets/static/js/'),
+        gulp.dest('android-flashcards-en-pl/app/src/main/assets/static/js/'),
+        gulp.dest('android-flashcards-pl-en/app/src/main/assets/static/js/')
     );
 };
 exports.style = style;

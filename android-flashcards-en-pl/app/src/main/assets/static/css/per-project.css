@@ -1,0 +1,20 @@
+.lang-en .module-flash-cards .main-header-wrap .main-header {
+    border-top: 1px solid rgba(0, 0, 0, .2);
+    background: -webkit-linear-gradient(top, rgba(203,153,128, 1), rgba(203,153,128,0) 60%);
+    background: linear-gradient(180deg, rgba(203,153,128, 1) 0, rgba(203,153,128,0) 60%);
+}
+.lang-pl .module-flash-cards .main-header-wrap .main-header {
+    border-top: 1px solid rgba(0, 0, 0, .2);
+    background: -webkit-linear-gradient(top, rgba(151, 135, 83, .7), rgba(151, 135, 83, 0) 60%);
+    background: linear-gradient(180deg, rgba(151, 135, 83, .7) 0, rgba(151, 135, 83, 0) 60%);
+}
+@media (max-width:991.98px) {
+    .lang-en .module-flash-cards .main-header-wrap:before {
+        background: -webkit-linear-gradient(top, rgb(253,196,177) 0,rgb(253,196,177) 50%,rgba(197,129,64,0) 70%,rgba(160,143,88,0) 80%);
+        background: linear-gradient(180deg,rgb(253,196,177) 0,rgb(253,196,177) 50%,rgba(197,129,64,0) 70%,rgba(160,143,88,0) 80%);
+    }
+    .lang-pl  .module-flash-cards .main-header-wrap:before {
+        background: -webkit-linear-gradient(top, #d2c3ac, #d2c3ac 50%, rgba(210, 195, 172, .5) 70%, rgba(151, 135, 83, 0) 80%);
+        background: linear-gradient(180deg, #d2c3ac 0, #d2c3ac 50%, rgba(210, 195, 172, .5) 70%, rgba(151, 135, 83, 0) 80%);
+    }
+}

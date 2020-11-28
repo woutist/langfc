@@ -20,103 +20,345 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="53cb8082-ddf6-47ad-85bc-cacd23413194" name="Default Changelist" comment="add flashcards pl">
+      <change afterPath="$PROJECT_DIR$/android-flashcards-en-id/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-en-id/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-en-id/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-en-id/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-en-id/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-en-id/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-en-id/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-en-id/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-en-id/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-en-id/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-en-id/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-en-id/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-en-id/apk/release/app-release.apk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-en-id/apk/release/output.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-en-id/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-en-id/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-en-id/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-en-id/app/release/app-release.aab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-en-id/app/release/app-release.apk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-en-id/app/release/output.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-en-id/app/src/androidTest/java/com/ciihuy/basicandroidhtml5webapp/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-en-id/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-en-id/app/src/main/assets/bg-ico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-en-id/app/src/main/assets/debug.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-en-id/app/src/main/assets/error.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-en-id/app/src/main/assets/error/error1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-en-id/app/src/main/assets/error/error2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-en-id/app/src/main/assets/error/error3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-en-id/app/src/main/assets/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-en-id/app/src/main/assets/new-con-polish.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-en-id/app/src/main/assets/static/css/main.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-en-id/app/src/main/assets/static/css/per-project.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-en-id/app/src/main/assets/static/error1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-en-id/app/src/main/assets/static/error2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-en-id/app/src/main/assets/static/error3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-en-id/app/src/main/assets/static/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-en-id/app/src/main/assets/static/js/bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-en-id/app/src/main/assets/static/js/chunk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-en-id/app/src/main/assets/static/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-en-id/app/src/main/assets/static/js/main-engine.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-en-id/app/src/main/assets/static/js/main-functions-to-java.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-en-id/app/src/main/assets/static/js/main-variables.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-en-id/app/src/main/assets/static/js/main-words.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-en-id/app/src/main/assets/static/media/bg-en-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-en-id/app/src/main/assets/static/media/bg-en-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-en-id/app/src/main/assets/static/media/bg-en-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-en-id/app/src/main/assets/static/media/bg-pl-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-en-id/app/src/main/assets/static/media/bg-pl-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-en-id/app/src/main/assets/static/media/bg-pl-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-en-id/app/src/main/assets/static/media/flag-en.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-en-id/app/src/main/assets/static/media/flag-pl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-en-id/app/src/main/assets/static/media/fontello.0f95bce4.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-en-id/app/src/main/assets/static/media/fontello.152afbb2.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-en-id/app/src/main/assets/static/media/fontello.564af882.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-en-id/app/src/main/assets/static/media/fontello.b4ced1ce.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-en-id/app/src/main/assets/static/media/fontello.f7bed59e.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-en-id/app/src/main/assets/static/media/logo-en-pl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-en-id/app/src/main/assets/static/media/logo-pl-en.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-en-id/app/src/main/assets/static/media/pi-pum.fe26d4de.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-en-id/app/src/main/ic_launcher-playstore.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-en-id/app/src/main/java/com/ciihuy/basicandroidhtml5webapp/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-en-id/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-en-id/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-en-id/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-en-id/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-en-id/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-en-id/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-en-id/app/src/main/res/mipmap-hdpi/ic_launcher_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-en-id/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-en-id/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-en-id/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-en-id/app/src/main/res/mipmap-mdpi/ic_launcher_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-en-id/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-en-id/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-en-id/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-en-id/app/src/main/res/mipmap-xhdpi/ic_launcher_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-en-id/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-en-id/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-en-id/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-en-id/app/src/main/res/mipmap-xxhdpi/ic_launcher_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-en-id/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-en-id/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-en-id/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-en-id/app/src/main/res/mipmap-xxxhdpi/ic_launcher_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-en-id/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-en-id/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-en-id/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-en-id/app/src/main/res/values/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-en-id/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-en-id/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-en-id/app/src/test/java/com/ciihuy/basicandroidhtml5webapp/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-en-id/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-en-id/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-en-id/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-en-id/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-en-id/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-en-id/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-en-id/hs_err_pid7060.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-en-id/ico-flashcards.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-en-id/keystore/enlangfc.keystore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-en-id/keystore/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-en-id/replay_pid7060.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-en-id/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-en-pl/app/src/main/assets/static/css/per-project.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-en-pl/app/src/main/assets/static/media/bg-pl-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-en-pl/app/src/main/assets/static/media/bg-pl-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-en-pl/app/src/main/assets/static/media/bg-pl-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-en-pl/app/src/main/assets/static/media/flag-en.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-en-pl/app/src/main/assets/static/media/flag-pl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-en-pl/app/src/main/assets/static/media/logo-en-pl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-en-pl/app/src/main/assets/static/media/logo-pl-en.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-pl-en/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/debug.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/error.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/error/error1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/error/error2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/error/error3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/static/css/main.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/static/css/per-project.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/static/error1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/static/error2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/static/error3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/static/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/static/js/bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/static/js/chunk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/static/js/chunk.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/static/js/main-engine.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/static/js/main-functions-to-java.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/static/js/main-variables.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/static/js/main-words.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/static/media/bg-en-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/static/media/bg-en-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/static/media/bg-en-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/static/media/bg-pl-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/static/media/bg-pl-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/static/media/bg-pl-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/static/media/flag-en.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/static/media/flag-pl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/static/media/fontello.0f95bce4.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/static/media/fontello.152afbb2.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/static/media/fontello.564af882.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/static/media/fontello.b4ced1ce.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/static/media/fontello.f7bed59e.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/static/media/logo-en-pl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/static/media/logo-pl-en.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/static/media/pi-pum.fe26d4de.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/res/mipmap-hdpi/ic_launcher_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/res/mipmap-mdpi/ic_launcher_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/res/mipmap-xhdpi/ic_launcher_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/res/mipmap-xxhdpi/ic_launcher_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/res/mipmap-xxxhdpi/ic_launcher_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/res/values/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-pl-en/hs_err_pid7060.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-pl-en/ico-flashcards.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-pl-en/icons-dev/UK_flag.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-pl-en/keystore/newlangfc.jks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-pl-en/keystore/upload_certificate.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-flashcards-pl-en/replay_pid7060.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android-flashcards" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android-flashcards-en/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android-flashcards-en/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android-flashcards-en/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android-flashcards-en/.idea/codeStyles/Project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android-flashcards-en/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android-flashcards-en/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android-flashcards-en/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android-flashcards-en/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android-flashcards-en/.idea/runConfigurations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android-flashcards-en/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android-flashcards-en/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android-flashcards-en/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android-flashcards-en/app/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android-flashcards-en/app/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android-flashcards-en/app/proguard-rules.pro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android-flashcards-en/app/release/app-release.aab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android-flashcards-en/app/release/app-release.apk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android-flashcards-en/app/release/output.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android-flashcards-en/app/src/androidTest/java/com/ciihuy/basicandroidhtml5webapp/ExampleInstrumentedTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android-flashcards-en/app/src/main/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android-flashcards-en/app/src/main/assets/bg-ico.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android-flashcards-en/app/src/main/assets/debug.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android-flashcards-en/app/src/main/assets/error.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android-flashcards-en/app/src/main/assets/error/error1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android-flashcards-en/app/src/main/assets/error/error2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android-flashcards-en/app/src/main/assets/error/error3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android-flashcards-en/app/src/main/assets/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android-flashcards-en/app/src/main/assets/new-con-polish.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android-flashcards-en/app/src/main/assets/static/css/main.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android-flashcards-en/app/src/main/assets/static/error1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android-flashcards-en/app/src/main/assets/static/error2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android-flashcards-en/app/src/main/assets/static/error3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android-flashcards-en/app/src/main/assets/static/favicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android-flashcards-en/app/src/main/assets/static/js/bundle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android-flashcards-en/app/src/main/assets/static/js/chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android-flashcards-en/app/src/main/assets/static/js/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android-flashcards-en/app/src/main/assets/static/js/main-engine.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android-flashcards-en/app/src/main/assets/static/js/main-functions-to-java.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android-flashcards-en/app/src/main/assets/static/js/main-variables.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android-flashcards-en/app/src/main/assets/static/js/main-words.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android-flashcards-en/app/src/main/assets/static/media/bg1.a90a3ece.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android-flashcards-en/app/src/main/assets/static/media/bg2.3f64a3a2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android-flashcards-en/app/src/main/assets/static/media/bg3.f5b33966.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android-flashcards-en/app/src/main/assets/static/media/fontello.0f95bce4.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android-flashcards-en/app/src/main/assets/static/media/fontello.152afbb2.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android-flashcards-en/app/src/main/assets/static/media/fontello.564af882.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android-flashcards-en/app/src/main/assets/static/media/fontello.b4ced1ce.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android-flashcards-en/app/src/main/assets/static/media/fontello.f7bed59e.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android-flashcards-en/app/src/main/assets/static/media/logo_3.46a09739.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android-flashcards-en/app/src/main/assets/static/media/logo_3_pl.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android-flashcards-en/app/src/main/assets/static/media/pi-pum.fe26d4de.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android-flashcards-en/app/src/main/ic_launcher-playstore.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android-flashcards-en/app/src/main/java/com/ciihuy/basicandroidhtml5webapp/MainActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android-flashcards-en/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android-flashcards-en/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android-flashcards-en/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android-flashcards-en/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android-flashcards-en/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android-flashcards-en/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android-flashcards-en/app/src/main/res/mipmap-hdpi/ic_launcher_background.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android-flashcards-en/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android-flashcards-en/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android-flashcards-en/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android-flashcards-en/app/src/main/res/mipmap-mdpi/ic_launcher_background.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android-flashcards-en/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android-flashcards-en/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android-flashcards-en/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android-flashcards-en/app/src/main/res/mipmap-xhdpi/ic_launcher_background.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android-flashcards-en/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android-flashcards-en/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android-flashcards-en/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android-flashcards-en/app/src/main/res/mipmap-xxhdpi/ic_launcher_background.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android-flashcards-en/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android-flashcards-en/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android-flashcards-en/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android-flashcards-en/app/src/main/res/mipmap-xxxhdpi/ic_launcher_background.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android-flashcards-en/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android-flashcards-en/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android-flashcards-en/app/src/main/res/values/colors.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android-flashcards-en/app/src/main/res/values/ic_launcher_background.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android-flashcards-en/app/src/main/res/values/strings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android-flashcards-en/app/src/main/res/values/styles.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android-flashcards-en/app/src/test/java/com/ciihuy/basicandroidhtml5webapp/ExampleUnitTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android-flashcards-en/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android-flashcards-en/gradle.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android-flashcards-en/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android-flashcards-en/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android-flashcards-en/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android-flashcards-en/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android-flashcards-en/hs_err_pid7060.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android-flashcards-en/ico-flashcards.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android-flashcards-en/keystore/enlangfc.keystore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android-flashcards-en/keystore/readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android-flashcards-en/replay_pid7060.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android-flashcards-en/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/android-flashcards-pl-en/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android-flashcards-pl-en/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android-flashcards-pl-en/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/androidTest/java/com/ciihuy/basicandroidhtml5webapp/ExampleInstrumentedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/androidTest/java/com/ciihuy/basicandroidhtml5webapp/ExampleInstrumentedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/audio/background.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/audio/background2.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/audio/bg.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/audio/bingo.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/audio/break-bones.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/audio/break.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/audio/bullets.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/audio/bullets2.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/audio/bullets3.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/audio/coin.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/audio/condor.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/audio/door-lift.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/audio/down.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/audio/elevator.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/audio/explosion-intruder.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/audio/explosion.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/audio/flash.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/audio/footstep.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/audio/footstep2.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/audio/footstep3.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/audio/key.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/audio/life.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/audio/magic.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/audio/next-level.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/audio/only-wind.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/audio/owl.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/audio/quake.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/audio/scream-intruder.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/audio/scream.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/audio/scream2.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/audio/shoot2.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/audio/splash.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/audio/tic.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/functions-to-java.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/images/LifeFull.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/images/LifeSingle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/images/b-saloon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/images/b-sheriff.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/images/b-store.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/images/background1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/images/background1_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/images/background2_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/images/background3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/images/background4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/images/background4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/images/background5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/images/background5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/images/box-menu4-mini.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/images/building-barn1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/images/building-big-home1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/images/building-big-home2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/images/building-blacksmith.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/images/building-home1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/images/building-home2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/images/building-saloon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/images/building-sheriff.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/images/building-store.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/images/building2p.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/images/building3p.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/images/bullet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/images/button-level.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/images/buttons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/images/cactus-animate.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/images/cactus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/images/cactus2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/images/cactus_animate.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/images/cave.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/images/condor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/images/condor2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/images/door-horizontal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/images/door2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/images/end_level.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/images/explosion.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/images/fire_down3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/images/fire_left3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/images/fire_right3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/images/fire_up3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/images/fire_up_normal_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/images/fireb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/images/fish7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/images/fog-anim-half.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/images/fog-static.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/images/fog-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/images/fog-yellow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/images/fog.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/images/grass_anim8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/images/grass_lr.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/images/ground.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/images/gun-bullets6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/images/gun-real.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/images/icons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/images/intruders1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/images/intruders2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/images/intruders3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/images/intruders4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/images/intruders6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/images/invisible.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/images/key.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/images/kladka-short.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/images/lifes-single-bar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/images/lock1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/images/log.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/images/menu.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/images/mine-part1-6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/images/mine-part2-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/images/navigations.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/images/navigations1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/images/nu3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/images/owl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/images/pause.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/images/players1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/images/save-level2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/images/sentence1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/images/sentence2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/images/snake3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/images/splash-red9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/images/splash7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/images/stone-big-explosion.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/images/stone-big.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/images/stone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/images/the-end.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/images/tile-size-black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/images/tiles-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/images/top-menu-mini.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/images/tree-short.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/images/tree-test.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/images/tree.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/images/water_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/images/water_red6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/images/windmill_1_5_new.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/images/windmill_2_5_new.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/js-prod/bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/js-prod/bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/js-prod/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/static/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/js-prod/main.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/js-prod/phaser-2.13.3.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/levels/level1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/levels/level2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/levels/level3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/levels/level4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/levels/level5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/levels/level6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/levels/level7.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/levels/level8.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/assets/levels/level9.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/ic_launcher-playstore.png" beforeDir="false" afterPath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/ic_launcher-playstore.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/java/com/ciihuy/basicandroidhtml5webapp/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/java/com/ciihuy/basicandroidhtml5webapp/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png" beforeDir="false" afterPath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png" beforeDir="false" afterPath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png" beforeDir="false" afterPath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png" beforeDir="false" afterPath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png" beforeDir="false" afterPath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/test/java/com/ciihuy/basicandroidhtml5webapp/ExampleUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/android-flashcards-pl-en/app/src/test/java/com/ciihuy/basicandroidhtml5webapp/ExampleUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-flashcards-pl-en/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android-flashcards-pl-en/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/root/main-engine.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/root/main-engine.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/root/main-functions-to-java.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/root/main-functions-to-java.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/root/main.min.scss" beforeDir="false" afterPath="$PROJECT_DIR$/root/main.min.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +369,7 @@
     <execution />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/android-flashcards-pl-en" />
   </component>
   <component name="ProjectId" id="1j9g2UX4I4Kr1aks2Q98K7NqZld" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -138,10 +380,9 @@
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="$PROJECT_DIR$/node_modules/gulp" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/android-flashcards-en-pl/app/src/main/assets/static/media" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -154,13 +395,15 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\webpack-flashcards" />
-      <recent name="C:\xampp\htdocs\webpack-flashcards\android-flashcards\app\src\main\assets\static" />
-      <recent name="C:\xampp\htdocs\webpack-flashcards\root" />
-      <recent name="C:\xampp\htdocs\webpack-flashcards\android-flashcards-en\app\src\main\assets\static\js-prod" />
-      <recent name="C:\xampp\htdocs\webpack-flashcards\webpack-old-set" />
+      <recent name="C:\xampp\htdocs\webpack-flashcards\android-flashcards-en-pl\app\src\main\assets\static\media" />
+      <recent name="C:\xampp\htdocs\webpack-flashcards\android-flashcards-pl-en\icons-dev" />
+      <recent name="C:\xampp\htdocs\webpack-flashcards\android-flashcards-pl-en" />
+      <recent name="C:\xampp\htdocs\webpack-flashcards\android-flashcards-pl-en\app\src\main\assets\static\media" />
+      <recent name="C:\xampp\htdocs\webpack-flashcards\android-flashcards-en-id\app\src\main\assets\static\media" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\webpack-flashcards\android-flashcards-pl-en\icons-dev" />
+      <recent name="C:\xampp\htdocs\webpack-flashcards\android-flashcards-en-id\app\src\main\assets\static\media" />
       <recent name="C:\xampp\htdocs\webpack-flashcards\webpack-old-set" />
       <recent name="C:\xampp\htdocs\webpack-flashcards\android-flashcards\app\src\main\assets\static\media" />
     </key>
@@ -248,7 +491,12 @@
       <workItem from="1605972630925" duration="9146000" />
       <workItem from="1605989553379" duration="4452000" />
       <workItem from="1605994868919" duration="712000" />
-      <workItem from="1605996529420" duration="3258000" />
+      <workItem from="1605996529420" duration="18885000" />
+      <workItem from="1606153552360" duration="1842000" />
+      <workItem from="1606247313283" duration="754000" />
+      <workItem from="1606323694064" duration="6966000" />
+      <workItem from="1606451171977" duration="4694000" />
+      <workItem from="1606506888434" duration="11128000" />
     </task>
     <task id="LOCAL-00001" summary="add flashcards pl">
       <created>1605994942774</created>
@@ -271,7 +519,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605995150738</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add flashcards pl">
+      <created>1606040023346</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1606040023346</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -297,33 +552,33 @@
     <option name="LAST_COMMIT_MESSAGE" value="add flashcards pl" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1605994008322">
+    <state width="1877" height="283" key="GridCell.Tab.0.bottom" timestamp="1606592779515">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605994008322" />
-    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1605994008322">
+    <state width="1877" height="283" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606592779515" />
+    <state width="1877" height="283" key="GridCell.Tab.0.center" timestamp="1606592779515">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605994008322" />
-    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1605994008321">
+    <state width="1877" height="283" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606592779515" />
+    <state width="1877" height="283" key="GridCell.Tab.0.left" timestamp="1606592779515">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605994008321" />
-    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1605994008322">
+    <state width="1877" height="283" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606592779515" />
+    <state width="1877" height="283" key="GridCell.Tab.0.right" timestamp="1606592779515">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605994008322" />
+    <state width="1877" height="283" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606592779515" />
     <state x="461" y="165" key="SettingsEditor" timestamp="1605994664748">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1605994664748" />
-    <state x="552" y="240" key="Vcs.Push.Dialog.v2" timestamp="1605995163638">
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2" timestamp="1606040027738">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605995163638" />
-    <state x="667" y="253" width="684" height="592" key="find.popup" timestamp="1605995529205">
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606040027738" />
+    <state x="667" y="253" width="684" height="592" key="find.popup" timestamp="1606593452861">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="667" y="253" width="684" height="592" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605995529205" />
+    <state x="667" y="253" width="684" height="592" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1606593452861" />
   </component>
 </project>

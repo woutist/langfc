@@ -10714,7 +10714,7 @@ a:hover {
     top: 3px;
     left: 5px;
     overflow: hidden;
-    background-image: url(../media/logo_3.46a09739.png);
+    background-image: url(../media/logo-en-pl.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50%;
@@ -10722,10 +10722,10 @@ a:hover {
     height: 3.6rem
 }
 .lang-pl .module-flash-cards .main-header-wrap .main-header h1:after {
-    background-image: url(../media/logo_3.46a09739.png);
+    background-image: url(../media/logo-en-pl.png);
 }
 .lang-en .module-flash-cards .main-header-wrap .main-header h1:after {
-    background-image: url(../media/logo_3_pl.png);
+    background-image: url(../media/logo-pl-en.png);
 }
 
 .module-flash-cards .main-header-wrap .main-header .direction-lang-and-search {
@@ -11405,25 +11405,47 @@ a:hover {
     background-position: 50%;
     background-size: cover;
     background-color: #e4d8cc;
-    z-index: 0
+    z-index: 0;
+    transition: background 250ms ease-in-out;
+}
+
+.lang-pl {
+    .module-flash-cards .bg-1 {
+        background-image: url(../media/bg-en-1.jpg);
+    }
+    .module-flash-cards .bg-2 {
+        background-image: url(../media/bg-en-2.jpg);
+    }
+    .module-flash-cards .bg-3 {
+        background-image: url(../media/bg-en-3.jpg);
+    }
+}
+
+.lang-en {
+    .module-flash-cards .bg-1 {
+        background-image: url(../media/bg-pl-1.jpg);
+    }
+    .module-flash-cards .bg-2 {
+        background-image: url(../media/bg-pl-2.jpg);
+    }
+    .module-flash-cards .bg-3 {
+        background-image: url(../media/bg-pl-3.jpg);
+    }
 }
 
 .module-flash-cards .bg-1 {
-    background-image: url(../media/bg3.f5b33966.jpg);
     -webkit-animation: bganim1 134s ease-in-out infinite;
     animation: bganim1 134s ease-in-out infinite;
     opacity: 1
 }
 
 .module-flash-cards .bg-2 {
-    background-image: url(../media/bg1.a90a3ece.jpg);
     -webkit-animation: bganim2 134s ease-in-out infinite;
     animation: bganim2 134s ease-in-out infinite;
     opacity: 0
 }
 
 .module-flash-cards .bg-3 {
-    background-image: url(../media/bg2.3f64a3a2.jpg);
     -webkit-animation: bganim3 134s ease-in-out infinite;
     animation: bganim3 134s ease-in-out infinite;
     opacity: 0
@@ -12109,12 +12131,12 @@ a:hover {
 
 .module-flash-cards .main-flash-cards .flash-card .back p>strong.flag-pl,
 .module-flash-cards .main-flash-cards .flash-card .front p>strong.flag-pl {
-    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAZCAYAAABzVH1EAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAfJJREFUeNqsV1tqBDEMs8JCL9Ar9IqFnqGH6PH62e/uA/XBDsxmLVspHQjJhMSxHdlWwO8vIi67dk7a6dofr+Ot/2mf0/z2vzI+7frjJH9um06XXX8Zcf9harzOc1qzze3X7dfMYyTz87mc5Kt1MenFzBBOrRIa0zokDpkNw7QvkrOYyN8be3fOKCwOw4goPE3hfS6eA3ELN3tGIogJrCoF1XivwDzODOoMg1h7YwgN70BABgWUKCCbeZomhNM4GwIiTIzrboGFQyqI0VxfwSy6GHEEVx6c8axuMhaMYqbDMD3keGvFyP/cE+pGOiihyFSdd7N/KriIW4ZriOsVNgfBKI5hjJXh6GKERiV2bqJiAjSyFU0n/so+fLy+dQUORkFjkftDVGYKGDtOu4P+4f35ZVUpmPiFoCUwim4lJ0XM4eHxSaU4FDhXWHbIoRN3q3tRsV9ViSlgQYMcdiQSRlpGdtvDrBUQbJgm21XzNOCqmDlU+qWAVQaZ1WLJwusr5LGlKA6lzgIuiszjJAU0BdKlKBwNCYRB3lQhpPl26WoJmrNLirJS1SmKnZu9YAZ5ZTQ6aDlK/MmD4gmwknbRPaxovMjQ0BAuvD26qh3OGaNR2ilQEHHC5rkcRrzY76CxQN7cNIukD4PSZ85ERxa370uAAQB5wBR2C69MDgAAAABJRU5ErkJggg==)
+    background-image: url(../media/flag-pl.png);
 }
 
 .module-flash-cards .main-flash-cards .flash-card .back p>strong.flag-en,
 .module-flash-cards .main-flash-cards .flash-card .front p>strong.flag-en {
-    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAZCAMAAABEio12AAAC91BMVEXPFCvGAALGAALb3On////yk5v///8BBmkFJ4DR0+T////PFCvNECEACW3PFCvPEyozUJfPFSYAJH0BCm0IGHYXK4H////+/f0uS5TwkpoAJH3LCxzPGSrOHC3XKzsEJX4AJH0EJX4EGXXPEyL57vAGGHUABGnRIDbRHTP//////f0AJH0AJH3MDSHJAQ/78fMAFXLRHjT+/v/JARH//Pz//P32/v/7+PnODh/7+Pn///8AI33////LAhv///8AI32Vu+PRIDYAB2vOARMAJH0AJH3RIDXRHDL7+fr9+/z+/P3RHDL9+fn4pqcLIn/+/v+iwuMAA2PPFCvywMWrxuP///+pxuP+/v8AA2b//v7MBh7JARbRHTT++fnQFCvRHTT/+/vRHTT//f3TKTx9ksTTKTz////RIDbLAhu/AADXQlD09vofSZwAAF/LAhvPFCvBAADzwsfXP03LAhvx2N3z9fmHl8XLAhvywMYAJn798/TBAAAAJX4ABmkABmnQGjAABmn8+vvLAhvLAhv++frni5bLAhv9/v4ABmnPBxoABmnRIDQABmnxub/V0+KQqdIAAFsaOY78mpi0tdGnw+GtyOTXAAWGjrwWKYHy2d7/iobVAAD/iYUjTZ8YK4G/AACXvOTPFCvxur+JkL3////PARP///8AJH3RIDbQGjDQGC4JK4LNCCDPARTxmJqNncigweP/jYgACGzIAATdV2QLKoQAAFGGjryTrdTXP07TAADXP07/iIQiTJ7XQVDuam/12t798/T50dMWMYYAAF2fq80uS5TNCyPGAAPsjpjGAAPnkpzyk5vmhI/wkpr98/SgrM341NWPteAaOI702Nzso6n1lpjwys+Mk78cRZqQt+GLlsDven/x2d7VAABvmtBlcqvR1+fI9v/D2u/Ousv02971+PsZLYLz2t3plJzqnKTspKqYvOT/iYTtrrMjTZ7plp2WuOCJkb7n7vXer7oCJn/Xrbr/dHHVOUjVOEf/ko73+vzgZnLM7+LGAAAA/XRSTlOGjHkEmZJsXkQK6YAS8392ZQirpA8C27efck0kGQ0DuLI4LisRCfrzx8ZlWlRRNBkF5c8+NjEnHR0V/Pr29PPy7dnRxcO+vGlbSDw5LSYkIRYW9/Py7+rj2tPTtaihjVxPSkIyJyMM+/v19PPy7e3o5+bm5OLh3dvWzszKyMa7sK+qqZyVk2lUUUlFQjk4KiIeGhgR+vn59vXw6uLd2dnZzs7Hw726rKKgmpJkYFdUTR357u7s5ubk4tvW0cnDw7+6tKyspp+XkoVzc3Jycm1sZllUVEpHQj88NzEaDvnr3d3Z2NjY08nJyMO+vbe3sbGsq6umpp9gWUg8NjIxGpXmAgAAAz5JREFUOMtiKArm4uIqLZsX4VRZ4+Iqr6AgtFz4WAvrCT7+U+e0BNh1pKQ4OBQVlZT8JkwMULkjKyjHzDAtMyvYLpSrdDtck5CwBAsrIwMfkySbALu2DkxLv/4kHh5ZTmZmhpkbQZq4uMKBNjnVYtfS03PzVp+vhQzP5DSQlhyHu0BNRYXhYmJGi5/X1mFq6eq6ecvHV1laZpKlClCLKAOvWo7DzFn3CooqxCKNni2Wr2tA1dLRwbH++i895VRfc31LFU5VA1EGe2uIptnzd1YYaWqKLz7ccASshRushf3ypSvXjPWSfc38zfUni4hAtFjb8+bmOJTM2TV/9yKANJeIN34SXg6x5Qzb6tWXLq7rNP7Za+pj5n97YqCIKkgLr5oaL++m3G1b7z/ZX13t9uqg+LLPRyG2nGS78O37Wt0f171MTPtS/CYEBkJsCZkyZUpIWFjYjrJHkVWLXr4WF1/WGMvSCrLlNJvWxXXrrngmgbX0bwgImMwJCjE7KysbYLxwgULMSBPosIONsbEtrSBbzp7X0vJoTwBpATkM5H1wIKunp6urqxsaGjo6OmpoaLi51cfErFi5Ko6Bm5/f3T0+XjcxsdvbO1lZOtVCBhiVgoJyDLYZGba2eXnFxeXlUVHOzkujo5uampuPxzHw8fO3ta1Zq6vbaWysp6csLQ3RIifHEAQC+UBgGLVw4UKgNfX1SLYAtiZet5N4W7hx2YLbL3xY/CILtsXOygYWYlVVVeLi4EBuAQUyKMQ8PBIwQyxk6tSpISGgeHkcCQrkA+8+HALHCzcwXsCBfPVar4mpGTxeELEf8eAhUMuifdFL939BxL6HR7vn1W5jvT+w2Eeksa3bS8XEIiv2VTu/PfTx8FewFlAaY18PisreZD1lX/MNE+FaeNVmTM8G+qVid7XzngNv3qOl5PUgv/QCQ2ySZQBEC1gD0PuFO+fv2vNiwV4s+eUGyPu+wBCbBMkvQA3AECssKpg95+mCvUi5khuRKxVv/AaGmL6MDM8dkPezgYEcnAXUULJgLkre50bO+0opoEBWAcYLMJCtrIKzMjfPKnGYi1bCcKOXMOCMDIrKwi2bC7Yga8Bdjt0GR6UcAGJddjIUFnF2AAAAAElFTkSuQmCC)
+    background-image: url(../media/flag-en.png);
 }
 
 .module-flash-cards .main-flash-cards .flash-card .back p.paragraph-top strong,

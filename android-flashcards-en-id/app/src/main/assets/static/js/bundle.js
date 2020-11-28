@@ -1,28 +1,8 @@
-var engine = {
-    versionApp: "1.5.0"
-};
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[0],[
+/* 0 */
+/***/ (function(module, exports, __webpack_require__) {
 
-var scrollToTop = function (duration) {
-    // cancel if already on top
-    if (document.scrollingElement.scrollTop === 0) return;
-
-    const totalScrollDistance = document.scrollingElement.scrollTop;
-    let scrollY = totalScrollDistance, oldTimestamp = null;
-
-    function step (newTimestamp) {
-        if (oldTimestamp !== null) {
-            // if duration is 0 scrollY will be -Infinity
-            scrollY -= totalScrollDistance * (newTimestamp - oldTimestamp) / duration;
-            if (scrollY <= 0) return document.scrollingElement.scrollTop = 0;
-            document.scrollingElement.scrollTop = scrollY;
-        }
-        oldTimestamp = newTimestamp;
-        window.requestAnimationFrame(step);
-    }
-    window.requestAnimationFrame(step);
-}
-
-var detectionDevice = function () {
+/* WEBPACK VAR INJECTION */(function(global) {var detectionDevice = function () {
     var userAgent = navigator.userAgent || navigator.vendor || window.opera;
     if (/windows phone/i.test(userAgent)) {
         return "Windows Phone";
@@ -425,7 +405,7 @@ var detectionDevice = function () {
                                         className: "list-extends-links"
                                     }, t.a.createElement("button", {
                                         onClick: function(n) {
-                                            return a.openHref(n, "https://translate.google.com/#view=home&op=translate&sl="+global.pl+"&tl="+global.en+"&text=" + e._pl)
+                                            return a.openHref(n, "https://translate.google.pl/#view=home&op=translate&sl=pl&tl=en&text=" + e._pl)
                                         },
                                         className: "google-translator",
                                         target: "blank_"
@@ -460,7 +440,7 @@ var detectionDevice = function () {
                                     }, t.a.createElement("button", {
                                         onClick: function(n) {
 
-                                                return a.openHref(n, "https://translate.google.com/#view=home&op=translate&sl="+global.pl+"&tl="+global.en+"&text=" + e._pl)
+                                            return a.openHref(n, "https://translate.google.pl/#view=home&op=translate&sl=pl&tl=en&text=" + e._pl)
 
                                         },
                                         className: "google-translator",
@@ -511,7 +491,7 @@ var detectionDevice = function () {
                                     }, t.a.createElement("button", {
                                         onClick: function(n) {
 
-                                                return a.openHref(n, "https://translate.google.com/#view=home&op=translate&sl="+global.en+"&tl="+global.pl+"&text=" + e._en)
+                                            return a.openHref(n, "https://translate.google.pl/#view=home&op=translate&sl=en&tl=pl&text=" + e._en)
 
                                         },
                                         className: "google-translator",
@@ -547,7 +527,7 @@ var detectionDevice = function () {
                                     }, t.a.createElement("button", {
                                         onClick: function(n) {
 
-                                                return a.openHref(n, "https://translate.google.com/#view=home&op=translate&sl="+global.en+"&tl="+global.pl+"&text=" + e._en)
+                                            return a.openHref(n, "https://translate.google.pl/#view=home&op=translate&sl=en&tl=pl&text=" + e._en)
 
                                         },
                                         className: "google-translator",
@@ -573,7 +553,7 @@ var detectionDevice = function () {
                                 showListActice: !1
                             }), n.setExercise(e, n.state.idExercise, !1, !1, a)
                         }, e.items = function(e, n, a, l, o, _) {
-                            var i = "p->e" !== _ ? "https://translate.google.com/#view=home&op=translate&sl="+global.en+"&tl="+global.pl+"&text=" + l._en : "https://translate.google.com/#view=home&op=translate&sl="+global.pl+"&tl="+global.en+"&text=" + l._pl;
+                            var i = "p->e" !== _ ? "https://translate.google.pl/#view=home&op=translate&sl=en&tl=pl&text=" + l._en : "https://translate.google.pl/#view=home&op=translate&sl=pl&tl=en&text=" + l._pl;
                             return t.a.createElement("tr", {
                                 key: e,
                                 className: "list-container " + o
@@ -693,13 +673,13 @@ var detectionDevice = function () {
                         }, l.translateVoice = function(e, n, a) {
                             if (a && ("object" === typeof window.speechSynthesis || detectionDevice())) switch (n) {
                                 case "pl":
-                                    l.speak(e, global.codeSpeakPL);
+                                    l.speak(e, "pl-PL");
                                     break;
                                 case "en":
-                                    l.speak(e, global.codeSpeakEN);
+                                    l.speak(e, "en-US");
                                     break;
                                 default:
-                                    l.speak(e, global.codeSpeakEN)
+                                    l.speak(e, "en-US")
                             }
                         }, l.layer = function(e, n, a, o, _, i, p) {
                             return p ? (l.setState({
@@ -768,97 +748,95 @@ var detectionDevice = function () {
                                     case "en":
                                         j = {
                                             lang: "en",
-                                            buttonCloseExercise: global.translations1.buttonCloseExercise,
-                                            infoCongratulation: global.translations1.infoCongratulation,
-                                            buttonInfoCongratulation: global.translations1.buttonInfoCongratulation,
-                                            buttonInfoCongratulationRestart: global.translations1.buttonInfoCongratulationRestart,
-                                            buttonIKnow: global.translations1.buttonIKnow,
-                                            buttonIDontKnow: global.translations1.buttonIDontKnow,
-                                            buttonSimpleLotter: global.translations1.buttonSimpleLotter,
-                                            buttonCheckOut: global.translations1.buttonCheckOut,
-                                            buttonCheckOutToNext: global.translations1.buttonCheckOutToNext,
-                                            textSummary: global.translations1.textSummary,
-                                            buttonEnableAutoVoice: global.translations1.buttonEnableAutoVoice,
-                                            buttonDisableRotate: global.translations1.buttonDisableRotate,
-                                            buttonRestartProgress: global.translations1.buttonRestartProgress,
-                                            buttonCloseApplication: global.translations1.buttonCloseApplication,
-                                            yourPlatform: global.translations1.yourPlatform,
-                                            polish: global.translations1.polish,
-                                            english: global.translations1.english,
-                                            pl: global.translations1.pl,
-                                            en: global.translations1.en,
-                                            abouts: global.translations1.abouts,
-                                            about: global.translations1.about,
-                                            gt: global.translations1.gt,
-                                            privacy: global.translations1.privacy,
-                                            fullItemsList: global.translations1.fullItemsList,
-                                            flashcards: global.translations1.flashcards,
-                                            lottery: global.translations1.lottery,
-                                            noResultSearch: global.translations1.noResultSearch,
-                                            searchOnThisPage: global.translations1.searchOnThisPage,
-                                            changeDirectionLanguage: global.translations1.changeDirectionLanguage,
-                                            found: global.translations1.found,
-                                            or: global.translations1.or,
-                                            summary: global.translations1.summary,
-                                            sentenceYouDidntKnow: global.translations1.sentenceYouDidntKnow,
-                                            sentenceNotAnswered: global.translations1.sentenceNotAnswered,
-                                            sentenceYouKnew: global.translations1.sentenceYouKnew,
-                                            toRepeat: global.translations1.toRepeat,
-                                            toggleToRepeatShow: global.translations1.toggleToRepeatShow,
-                                            toggleToRepeatHide: global.translations1.toggleToRepeatHide,
-                                            TryToWriteATranslate: global.translations1.TryToWriteATranslate,
-                                            infoDescription: global.translations1.infoDescription,
-                                            totality: global.translations1.totality,
-                                            showAnswer: global.translations1.showAnswer,
-                                            listenTranslate: global.translations1.listenTranslate
+                                            buttonCloseExercise: "Your state will be automatically saved",
+                                            infoCongratulation: "Congratultaion!",
+                                            buttonInfoCongratulation: "Back to exercises menu",
+                                            buttonInfoCongratulationRestart: "Start this exercise all over again",
+                                            buttonIKnow: "I knew",
+                                            buttonIDontKnow: "I don't knew",
+                                            buttonSimpleLotter: "Simple Lottery",
+                                            buttonCheckOut: "Check out",
+                                            buttonCheckOutToNext: "Next",
+                                            textSummary: "Summary",
+                                            buttonEnableAutoVoice: "Enable automatically voice",
+                                            buttonDisableRotate: "Disable rotate",
+                                            buttonRestartProgress: "Restart progress",
+                                            buttonCloseApplication: "Close application",
+                                            yourPlatform: "Your platform",
+                                            polish: "Polish",
+                                            english: "English",
+                                            pl: "Pl",
+                                            en: "En",
+                                            abouts: "Autor: semDesign<br />Contact: aleksander.nyczyk@gmail.com<br />Version: ",
+                                            gt: "Google Translate",
+                                            privacy: "Privacy",
+                                            fullItemsList: "Full items list",
+                                            flashcards: "Flashcards",
+                                            lottery: "Lottery",
+                                            noResultSearch: "no result, change the direction of translation: ",
+                                            searchOnThisPage: "Search on this page",
+                                            changeDirectionLanguage: "you can change the direction of translation: ",
+                                            found: "found",
+                                            or: "or",
+                                            summary: "Summary",
+                                            sentenceYouDidntKnow: "You didn't know (at least once)",
+                                            sentenceNotAnswered: "You have not answered yet",
+                                            sentenceYouKnew: "You knew (or you learned)",
+                                            toRepeat: "To repeat",
+                                            toggleToRepeatShow: "The whole list to repeat",
+                                            toggleToRepeatHide: "Lottery",
+                                            TryToWriteATranslate: "Try to write a translate",
+                                            infoDescription: "Remember, English and Polish words often have many meanings that can also depend on the context. We chose the most Common words and sometimes less popular alternatives in brackets. If you need more complete translation, you can use the icon with the Google Translate. The icon is at the bottom-right corner of the flashcard. If you have any questions or suggestions, please send an",
+                                            totality: "totality",
+                                            showAnswer: "Show the correct answer for a moment",
+                                            listenTranslate: "Listen to the translation"
                                         };
                                         break;
                                     default:
                                         j = {
                                             lang: "pl",
-                                            buttonCloseExercise: global.translations2.buttonCloseExercise,
-                                            infoCongratulation: global.translations2.infoCongratulation,
-                                            buttonInfoCongratulation: global.translations2.buttonInfoCongratulation,
-                                            buttonInfoCongratulationRestart: global.translations2.buttonInfoCongratulationRestart,
-                                            buttonIKnow: global.translations2.buttonIKnow,
-                                            buttonIDontKnow: global.translations2.buttonIDontKnow,
-                                            buttonSimpleLotter: global.translations2.buttonSimpleLotter,
-                                            buttonCheckOut: global.translations2.buttonCheckOut,
-                                            buttonCheckOutToNext: global.translations2.buttonCheckOutToNext,
-                                            textSummary: global.translations2.textSummary,
-                                            buttonEnableAutoVoice: global.translations2.buttonEnableAutoVoice,
-                                            buttonDisableRotate: global.translations2.buttonDisableRotate,
-                                            buttonRestartProgress: global.translations2.buttonRestartProgress,
-                                            buttonCloseApplication: global.translations2.buttonCloseApplication,
-                                            yourPlatform: global.translations2.yourPlatform,
-                                            polish: global.translations2.polish,
-                                            english: global.translations2.english,
-                                            pl: global.translations2.pl,
-                                            en: global.translations2.en,
-                                            abouts: global.translations2.abouts,
-                                            about: global.translations2.about,
-                                            gt: global.translations2.gt,
-                                            privacy: global.translations2.privacy,
-                                            fullItemsList: global.translations2.fullItemsList,
-                                            flashcards: global.translations2.flashcards,
-                                            lottery: global.translations2.lottery,
-                                            noResultSearch: global.translations2.noResultSearch,
-                                            searchOnThisPage: global.translations2.searchOnThisPage,
-                                            changeDirectionLanguage: global.translations2.changeDirectionLanguage,
-                                            found: global.translations2.found,
-                                            or: global.translations2.or,
-                                            summary: global.translations2.summary,
-                                            sentenceYouDidntKnow: global.translations2.sentenceYouDidntKnow,
-                                            sentenceNotAnswered: global.translations2.sentenceNotAnswered,
-                                            sentenceYouKnew: global.translations2.sentenceYouKnew,
-                                            toRepeat: global.translations2.toRepeat,
-                                            toggleToRepeatShow: global.translations2.toggleToRepeatShow,
-                                            toggleToRepeatHide: global.translations2.toggleToRepeatHide,
-                                            TryToWriteATranslate: global.translations2.TryToWriteATranslate,
-                                            infoDescription: global.translations2.infoDescription,
-                                            totality: global.translations2.totality,
-                                            showAnswer: global.translations2.showAnswer,
-                                            listenTranslate: global.translations2.listenTranslate
+                                            buttonCloseExercise: "Tw\xf3j stan zostanie automatycznie zapisany",
+                                            infoCongratulation: "Gratulacje!",
+                                            buttonInfoCongratulation: "Wr\xf3\u0107 do menu \u0107wicze\u0144",
+                                            buttonInfoCongratulationRestart: "Zacznij to \u0107wiczenie od nowa",
+                                            buttonIKnow: "Wiedzia\u0142em/am",
+                                            buttonIDontKnow: "Nie wiedzia\u0142em/am",
+                                            buttonSimpleLotter: "Zwyk\u0142e losowanie",
+                                            buttonCheckOut: "Sprawd\u017a",
+                                            buttonCheckOutToNext: "Nast\u0119pny",
+                                            textSummary: "Podsumowanie",
+                                            buttonEnableAutoVoice: "W\u0142\u0105czaj automatycznie g\u0142os",
+                                            buttonDisableRotate: "Wy\u0142\u0105cz obracanie",
+                                            buttonRestartProgress: "Restartuj post\u0119p",
+                                            buttonCloseApplication: "Zamknij aplikacje",
+                                            yourPlatform: "Twoja platforma",
+                                            polish: "Polski",
+                                            english: "Angielski",
+                                            pl: "Pl",
+                                            en: "En",
+                                            abouts: "Autor: semDesign<br />Kontakt: aleksander.nyczyk@gmail.com<br />Wersja: ",
+                                            gt: "Google Translator",
+                                            privacy: "Prywatno\u015b\u0107",
+                                            fullItemsList: "Pe\u0142na lista",
+                                            flashcards: "Fiszki",
+                                            lottery: "Losowanie",
+                                            noResultSearch: "bez rezulatatu, zmie\u0144 kierunek: ",
+                                            searchOnThisPage: "Szukaj na tej stronie",
+                                            changeDirectionLanguage: "mo\u017cesz zmieni\u0107 kierunek t\u0142umaczenia: ",
+                                            found: "znaleziono",
+                                            or: "albo",
+                                            summary: "Podsumowanie",
+                                            sentenceYouDidntKnow: "Nie wiedzia\u0142e\u015b (przynajmniej raz)",
+                                            sentenceNotAnswered: "Jeszcze nie odpowiada\u0142e\u015b",
+                                            sentenceYouKnew: "Wiedzia\u0142e\u015b (lub si\u0119 nauczy\u0142e\u015b)",
+                                            toRepeat: "Do powt\xf3rki",
+                                            toggleToRepeatShow: "Ca\u0142a lista do powt\xf3rki",
+                                            toggleToRepeatHide: "Loteria",
+                                            TryToWriteATranslate: "Spr\xf3buj napisa\u0107 t\u0142umaczenie",
+                                            infoDescription: "Pami\u0119taj, \u017ce angielskie i polskie s\u0142owa maj\u0105 cz\u0119sto wiele znacze\u0144, tak\u017ce zale\u017cnych od kontekstu. Do aplikacji starano si\u0119 wybra\u0107 najcz\u0119\u015bciej stosowane t\u0142umaczenia oraz ewentualne alternatywy w nawiasach. Je\u015bli potrzebujesz kompletniejszego t\u0142umaczenia, mo\u017cesz u\u017cy\u0107 ikony z Transaltora Google, kt\xf3ra znajduje si\u0119 w prawym dolnym rogu fiszki. Wszelkie pytania i sugestie prosz\u0119 kierowa\u0107 na ",
+                                            totality: "Ca\u0142o\u015b\u0107",
+                                            showAnswer: "Poka\u017c na chwil\u0119 poprawn\u0105 odpowie\u017a",
+                                            listenTranslate: "Wys\u0142uchaj t\u0142umaczenia"
                                         }
                                 }
                             }(n), l.global.lang = n, "pl" === n && (y("language_cookie", "pl"), l.setState({
@@ -1061,7 +1039,7 @@ var detectionDevice = function () {
                                             className: "col-6 d-flex"
                                         }, t.a.createElement("button", {
                                             onClick: function(a) {
-                                                return n.openHref(a, "https://translate.google.com/#view=home&op=translate&sl=" + ("p->e" === e ? global.pl+"&tl="+global.en+"&text=" + _._pl : global.en+"&tl="+global.pl+"&text=" + _._en))
+                                                return n.openHref(a, "https://translate.google.pl/#view=home&op=translate&sl=" + ("p->e" === e ? "pl&tl=en&text=" + _._pl : "en&tl=pl&text=" + _._en))
                                             },
                                             className: "icon-gt"
                                         }), t.a.createElement("i", {
@@ -1073,7 +1051,7 @@ var detectionDevice = function () {
                                             className: "col-6 d-flex"
                                         }, t.a.createElement("button", {
                                             onClick: function(a) {
-                                                return n.openHref(a, "https://translate.google.com/#view=home&op=translate&sl=" + ("p->e" === e ? global.en+"&tl="+global.pl+"&text=" + _._en : global.pl+"&tl="+global.en+"&text=" + _._pl))
+                                                return n.openHref(a, "https://translate.google.pl/#view=home&op=translate&sl=" + ("p->e" === e ? "en&tl=pl&text=" + _._en : "pl&tl=en&text=" + _._pl))
                                             },
                                             className: "icon-gt"
                                         }), t.a.createElement("i", {
@@ -1144,7 +1122,7 @@ var detectionDevice = function () {
                             idC: !1,
                             fSwipe: !1,
                             timeOutCloseCloud: !0,
-                            version: engine.versionApp,
+                            version: global.versionApp,
                             searchTime: {},
                             soundSeparator: new Audio(N.a),
                             directionText: function() {
@@ -1277,14 +1255,14 @@ var detectionDevice = function () {
                                 }
                             }, t.a.createElement("span", {
                                 className: "icon-ok"
-                            }), " "+global.translations1.pl), t.a.createElement("button", {
+                            }), " PL"), t.a.createElement("button", {
                                 className: "border-content-bottom " + this.state.activeEN,
                                 onClick: function(n) {
                                     return e.setLang(n, "en")
                                 }
                             }, t.a.createElement("span", {
                                 className: "icon-ok"
-                            }), " "+global.translations1.en)), t.a.createElement("li", null, t.a.createElement("button", {
+                            }), " EN")), t.a.createElement("li", null, t.a.createElement("button", {
                                 className: "border-content-bottom exchange-direction-language",
                                 onClick: function(n) {
                                     return e.changeDirection(n)
@@ -1324,7 +1302,7 @@ var detectionDevice = function () {
                                 }
                             }, t.a.createElement("span", {
                                 className: "icon-new-logo"
-                            }), j.about+" ", n), t.a.createElement("div", {
+                            }), " Abouts ", n), t.a.createElement("div", {
                                 className: "abouts-box"
                             }, t.a.createElement("p", null, C()(j.abouts), " ", n, " ", this.global.version)))), t.a.createElement("p", null, j.yourPlatform, ": ", z ? "Android/iOS" : "Browser"), t.a.createElement("span", {
                                 className: "logo-menu icon-only-l"
@@ -1370,7 +1348,7 @@ var detectionDevice = function () {
                                 onClick: function(n) {
                                     return e.setLang(n, "pl")
                                 }
-                            }, global.translations1.pl)), t.a.createElement("li", {
+                            }, "PL")), t.a.createElement("li", {
                                 className: "flag-en"
                             }, t.a.createElement("a", {
                                 href: "#en",
@@ -1378,7 +1356,7 @@ var detectionDevice = function () {
                                 onClick: function(n) {
                                     return e.setLang(n, "en")
                                 }
-                            }, global.translations1.en))), t.a.createElement("h1", {
+                            }, "EN"))), t.a.createElement("h1", {
                                 className: "icon-new-logo"
                             }, t.a.createElement("span", {
                                 className: "d-none"
@@ -1430,7 +1408,7 @@ var detectionDevice = function () {
                                 className: "icon-gt",
                                 href: "#gt",
                                 onClick: function(n) {
-                                    return e.openHref(n, "https://translate.google.com/#view=home&op=translate&sl=" + ("p->e" === e.global.flashCardDirection ? global.pl+"&tl="+global.en+"&text=" : global.en+"&tl="+global.pl+"&text=") + e.state.searchWordsMain)
+                                    return e.openHref(n, "https://translate.google.pl/#view=home&op=translate&sl=" + ("p->e" === e.global.flashCardDirection ? "pl&tl=en&text=" : "en&tl=pl&text=") + e.state.searchWordsMain)
                                 }
                             }, "Google Translate")))), this.state.resultsSearch ? t.a.createElement("ul", {
                                 className: "list-unstyled m-0"
@@ -1564,11 +1542,11 @@ var detectionDevice = function () {
                                 className: "icon-cancel"
                             })))), t.a.createElement("footer", {
                                 className: "main-footer"
-                            }, t.a.createElement("p", null, "Copyright \xa9 ", (n + " " + engine.versionApp), " | ", t.a.createElement("a", {
+                            }, t.a.createElement("p", null, "Copyright \xa9 ", (n + " " + global.versionApp), " | ", t.a.createElement("a", {
                                 href: "#",
                                 onClick: function(n) {
 
-                                        return e.openHref(n, "http://alexnx.vot.pl/fc/?lang=" + j.lang)
+                                    return e.openHref(n, "http://alexnx.vot.pl/fc/?lang=" + j.lang)
 
                                 }
                             }, j.privacy), " | ", !u && t.a.createElement(P, {
@@ -1618,3 +1596,34 @@ var detectionDevice = function () {
 
 
 
+
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(1)))
+
+/***/ }),
+/* 1 */
+/***/ (function(module, exports) {
+
+var g;
+
+// This works in non-strict mode
+g = (function() {
+	return this;
+})();
+
+try {
+	// This works if eval is allowed (see CSP)
+	g = g || new Function("return this")();
+} catch (e) {
+	// This works if the window reference is available
+	if (typeof window === "object") g = window;
+}
+
+// g can still be undefined, but nothing to do about it...
+// We return undefined, instead of nothing here, so it's
+// easier to handle this case. if(!global) { ...}
+
+module.exports = g;
+
+
+/***/ })
+],[[0,1]]]);

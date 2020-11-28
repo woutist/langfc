@@ -1,0 +1,26 @@
+.lang-en .module-flash-cards .main-header-wrap .main-header {
+    border-top: 1px solid rgba(0, 0, 0, .2);
+    background: -webkit-linear-gradient(top, rgba(37, 86, 34, .7), rgba(37, 86, 34, 0) 60%);
+    background: linear-gradient(180deg, rgba(37, 86, 34, .7) 0, rgba(37, 86, 34, 0) 60%);
+}
+.lang-pl .module-flash-cards .main-header-wrap .main-header {
+    border-top: 1px solid rgba(0, 0, 0, .2);
+    background: -webkit-linear-gradient(top, rgba(151, 135, 83, .7), rgba(151, 135, 83, 0) 60%);
+    background: linear-gradient(180deg, rgba(151, 135, 83, .7) 0, rgba(151, 135, 83, 0) 60%);
+}
+.lang-en .module-flash-cards .main-list-exercise .category-box .title-style-text.category-info {
+    background-color: rgba(37, 86, 34, 0.4);
+}
+.lang-pl .direction-lang:before {
+    content: 'Arah bahasa';
+}
+@media (max-width:991.98px) {
+    .lang-en .module-flash-cards .main-header-wrap:before {
+        background: -webkit-linear-gradient(top, rgb(206, 222, 187) 0,rgb(206, 222, 187) 50%,rgba(206, 222, 187,0) 70%,rgba(206, 222, 187,0) 80%);
+        background: linear-gradient(180deg,rgb(206, 222, 187) 0,rgb(206, 222, 187) 50%,rgba(206, 222, 187,0) 70%,rgba(206, 222, 187,0) 80%);
+    }
+    .lang-pl  .module-flash-cards .main-header-wrap:before {
+        background: -webkit-linear-gradient(top, #d2c3ac, #d2c3ac 50%, rgba(210, 195, 172, .5) 70%, rgba(151, 135, 83, 0) 80%);
+        background: linear-gradient(180deg, #d2c3ac 0, #d2c3ac 50%, rgba(210, 195, 172, .5) 70%, rgba(151, 135, 83, 0) 80%);
+    }
+}
